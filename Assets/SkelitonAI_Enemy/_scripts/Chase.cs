@@ -29,7 +29,7 @@ public class Chase : MonoBehaviour
                                         Quaternion.LookRotation(direction), 0.1f);
             animator.SetBool("isIdle", false);
             Debug.Log(direction.magnitude);
-            if (direction.magnitude > 1.3f)
+            if (direction.magnitude > 1f)
             {
                 this.transform.Translate(0, 0, 0.001f);
                 animator.SetBool("isWalking", true);
