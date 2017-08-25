@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: AQyOnpT/////AAAAGQzFdZ3CCkhhjUmg3qENMI5RzJAVsWCEEXnp7rxadD9xwXmCnYRQ+rSvDH/8aP0YJcXUzq3aZcLY5MCN7T/V1GKkWNa/8vR8h2W3GYdodsrLx8mr+B1oa4QbD8YJkKr8UroFMVMqwIMuIhsS2PcVtJEVyS35hED4wdsdsE6AVC//lsMkdPpNXgFfE97O/8kEsHaJRql4fDqQ0iBkddCr/9ZKsuSljnxeRHmghJ2mHBXEMZqlHDHhmaduPXTfOhTmVANGk2Znw4PNHkbDTTuuqI4+bdHYJ8p3pzplsml1xPlUfKdesumr5bt7tDzWpuHazqGDCS5KRL9ZDvtGfGOmFhjNzZEp+XoLxZIWX6T1f8P5
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -22,7 +22,7 @@ MonoBehaviour:
     mirrorVideoBackground: 0
   digitalEyewear:
     cameraOffset: 0.06
-    distortionRenderingMode: 2
+    distortionRenderingMode: 1
     distortionRenderingLayer: 31
     eyewearType: 0
     stereoFramework: 0
@@ -53,7 +53,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
     autoInitBuilder: 0
-    sceneUnitsToMillimeter: 0
+    sceneUnitsToMillimeter: 1000
   deviceTracker:
     autoInitTracker: 0
     autoStartTracker: 0
